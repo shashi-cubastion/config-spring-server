@@ -3,6 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://cubastion:Cubastion#123@10.0.0.55/eureka/
     instance:
-      hostname: localhost
+      hostname: 10.0.0.55
