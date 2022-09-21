@@ -28,5 +28,6 @@ spring:
     naming.physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
     show-sql: true
 
-jwt:
-secret: java-in-use
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
